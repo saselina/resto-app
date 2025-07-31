@@ -17,10 +17,10 @@ class ItemFactory extends Factory
     public function definition(): array
     {
         return [
-            'name' => $this->faker->word(),
+            'name' => fake()->unique()->word(),
             'description' => fake()->sentence(),
             'price' => fake()->numberBetween(1000, 100000),
-            'category_id' => fake()->numberBetween(1, 3), // Assuming you have 5 categories
+            'category_id' => fake()->numberBetween(1, 3),
             'img' => fake()->imageUrl(),
             'is_active' => fake()->boolean(80), // 80% chance of being active
         ];

@@ -17,9 +17,9 @@ class Category extends Model
     ];
     protected $dates = ['deleted_at'];
 
-    public function item()
+    public function items()
     {
-        return $this->hasMany(Item::class, 'category_id');
+        return $this->hasMany(Item::class);
     }
 
 }
