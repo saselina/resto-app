@@ -17,7 +17,7 @@
                   <div class="d-flex m-3 me-0">
                       <a href="{{route('cart')}}" class="position-relative me-4 my-auto">
                           <i class="fa fa-shopping-bag fa-2x"></i>
-                      </a>
+                      </a> 
                   </div>
               </div>
           </nav>
