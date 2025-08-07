@@ -1,4 +1,4 @@
-    @extends('customer.layouts.master')
+a    @extends('customer.layouts.master')
 
     @section('content')
         <div class="container-fluid fruite py-5">
